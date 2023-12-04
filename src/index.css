@@ -1,0 +1,45 @@
+.heading_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+    font-size: 36px;
+    background-color: rgb(255, 221, 0);
+    width: 300px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.two{
+    font-size: 30px;
+    color: blue;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+.course_wrapper{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.card_details{
+    padding-left: 20px;
+}
+.course_card{
+    border: 1px solid yellow;
+    width: 370px;
+    background-color: #ac3e3e;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.course_img{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.course_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
